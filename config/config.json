@@ -14,6 +14,6 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "JAWSDB_URL"
+    "use_env_variable": "mysql://root:WaS2y9eQpzDxUA60XCrr@containers-us-west-115.railway.app:7863/railway"
   }
 }
