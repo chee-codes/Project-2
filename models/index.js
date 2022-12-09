@@ -5,7 +5,7 @@ var path = require("path");
 var Sequelize = require("sequelize");
 var basename = path.basename(module.filename);
 var env = process.env.NODE_ENV || "production";
-var config = require(__dirname + "/../config/config.json")[env];
+var config = require(__dirname + "/../config/config.json");
 var db = {};
 
 // if (config.use_env_variable) {
@@ -14,7 +14,9 @@ var db = {};
 //   var sequelize = new Sequelize(config.database, config.username, config.password, config);
 // }
 
-var sequelize = new Sequelize(config.developement);
+var sequelize = new Sequelize(
+  "mysql://root:WaS2y9eQpzDxUA60XCrr@containers-us-west-115.railway.app:7863/railway"
+);
 
 fs.readdirSync(__dirname)
   .filter(function (file) {
