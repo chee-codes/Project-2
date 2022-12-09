@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "root",
-    "password": "password",
-    "database": "partyplanner_db",
-    "host": "localhost",
+    "password": "WaS2y9eQpzDxUA60XCrr",
+    "database": "railway",
+    "host": "containers-us-west-115.railway.app",
     "dialect": "mysql"
   },
   "test": {
@@ -12,8 +12,5 @@
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
-  },
-  "production": {
-    "use_env_variable": "mysql://root:WaS2y9eQpzDxUA60XCrr@containers-us-west-115.railway.app:7863/railway"
   }
 }
